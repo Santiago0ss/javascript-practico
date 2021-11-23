@@ -26,8 +26,20 @@ console.group("Triangulo")
 
 // console.log("Los lados del triangulo miden: " + ladoTriangulo1 + "cm, " + ladoTriangulo2 + "cm, " + baseTriangulo + "cm");
 
-// const alturaTriangulo = 5.5;
-// console.log("La altura del triangulo es de: " + alturaTriangulo + "cm");
+ const alturaTriangulo = function
+ {
+    if(ladoTriangulo1 === ladoTriangulo2 && ladoTriangulo1 != baseTriangulo) 
+    {
+        alert("isosceles")
+        const alturaTriangulo = Math.sqrt(ladoTriangulo1**2 - baseTriangulo**2/ 4)
+        console.log(altura)
+    }
+    else
+    {
+        alert("no lo se")
+    }
+ }
+ console.log("La altura del triangulo es de: " + alturaTriangulo + "cm");
 
 function perimetroTriangulo(lado1, lado2, base) {
     return lado1 + lado2 + base;
@@ -37,6 +49,7 @@ function perimetroTriangulo(lado1, lado2, base) {
 function areaTriangulo(base, altura) {
     return (base * altura) / 2;
 }
+function 
 console.log("El area del triangulo es: " + areaTriangulo + "cm^2");
 
 console.groupEnd();

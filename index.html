@@ -5,25 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Figuras geometricas</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <header>
-        <h1>Figuras geometricas</h1>
-    </header>
-    <p>Este es el primer trabajo practico del curso de JS</p>
-
-    <section>
-        <h2>Calcula el area y perimtro de un cuadrado</h2>
-        <form action="">
-            <label for="inputCuadrado">
-                Escribe cuanto mide cada lado de tu cuadrado:
-            </label>
-            <input type="number" id="inputCuadrado">
-            <button type="button" onclick="calcularPerimetroCuadrado()">Calcular el perimetro</button>
-            <button type="button" onclick="calcularAreaCuadrado()">Calcular el area</button>
-        </form>
-    </section>
-    
-    <script src="./figures.js"></script>
+    <div class="main-container">
+        <div class="tittle">
+            <header>
+                <h1>Figuras geometricas</h1>
+            </header>
+            <p>Este es el primer trabajo practico del curso de JS</p>
+        </div>
+        <section>
+            <div>
+                <h2>Calcula el area y perimtro de un cuadrado</h2>
+            </div>
+            <div>
+                <form action="">
+                    <label for="inputCuadrado">
+                        Escribe cuanto mide cada lado de tu cuadrado:
+                    </label>
+                    <input type="number" id="inputCuadrado">
+                    <button type="button" onclick="calcularPerimetroCuadrado()">Calcular el perimetro</button>
+                    <button type="button" onclick="calcularAreaCuadrado()">Calcular el area</button>
+                </form>
+            </div>
+        </section>
+        
+        <script src="./figures.js"></script>
+    </div>
 </body>
 </html>
