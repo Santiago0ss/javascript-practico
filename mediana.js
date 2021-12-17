@@ -19,6 +19,9 @@ const lista1 = [
     4000000,
 ];
 
+lista1.sort();
+console.log(lista1);
+
 const mitadLista1 = parseInt(lista1.length / 2);
 
 function esPar(numerito) {
